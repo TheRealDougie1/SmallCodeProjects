@@ -4,8 +4,6 @@ Building on the basic concept of FizzBuzz, what if:
     Different numbers were used instead of 3 and 5.
 """
 
-import sys
-
 def FizzBuzz(numberSet = 100, fizzNumber = 3, buzzNumber = 5):
     for number in range(1,numberSet):
         if number % fizzNumber == 0 and number % buzzNumber == 0:
@@ -21,6 +19,6 @@ def FizzBuzz(numberSet = 100, fizzNumber = 3, buzzNumber = 5):
 
 if __name__ == '__main__':
     FizzBuzz()
-    print("\t New FizzBuzz")
+    print("\t--- New FizzBuzz with different parameters. ---")
     FizzBuzz(100,4,13)
     print("FizzBuzz")

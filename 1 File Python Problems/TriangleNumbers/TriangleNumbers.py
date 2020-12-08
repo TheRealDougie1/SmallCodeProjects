@@ -1,4 +1,11 @@
+"""
+Basic Problem Summary:
+    For a given integer, n
+    Print the addition of all the values from 0 to n.
 
+    Example Input: 4
+    Example Output: 10
+"""
 def triangleNumber(n:int):
     return (n*(n+1) // 2)
 

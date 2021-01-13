@@ -1,6 +1,6 @@
 """
 Basic Problem Summary:
-    Given a list of votes 
+    Given a list of votes, find the vote with the majority. 
 
     Example Input: ["A","B","A"]
     Example Output: "A"
